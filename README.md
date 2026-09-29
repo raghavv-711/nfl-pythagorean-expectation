@@ -101,7 +101,6 @@ jupyter nbconvert --to notebook --execute --inplace "NFL Pythagorean Expectation
 | File | What it is |
 |---|---|
 | `NFL Pythagorean Expectation.ipynb` | The whole analysis |
-| `build_nb.py` | Script I use to generate the notebook (needs `nbformat`) |
 | `expected_wins_2026.csv` | Expected wins for each team after each week |
 | `next_game_win_prob_2026.csv` | Each team's next game: win probability, predicted score, offense/defense ratings |
 | `season_predictions_2026.csv` | Every regular-season game with a predicted score and win probability |
