@@ -1,5 +1,7 @@
 # NFL Pythagorean Expectation
 
+![Last updated](last_updated.png)
+
 Baseball has a formula called the Pythagorean expectation that guesses a team's win percentage from runs scored and runs allowed. I wanted to see if the same idea works for the NFL, and then use it to get playoff odds for this season.
 
 Everything is in one notebook: `NFL Pythagorean Expectation.ipynb`.
@@ -64,4 +66,4 @@ pip install pandas numpy statsmodels matplotlib nfl_data_py jupyter
 jupyter notebook "NFL Pythagorean Expectation.ipynb"
 ```
 
-Run all the cells. Rerunning it during the season updates the odds with the latest games.
+Run all the cells. Rerunning it during the season updates the odds with the latest games. The badge at the top of this README is regenerated on every run, so it always shows when the numbers were last refreshed.
