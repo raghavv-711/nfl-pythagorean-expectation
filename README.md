@@ -55,6 +55,12 @@ The last section of the notebook is one picture with a predicted winner and win 
 
 The picks are frozen in `predictions_2026_thru_week3.csv`. **After the season ends I'll compare them to what actually happened**: how many I got right (the model's backtest accuracy was about 60%, so that's the bar), whether the 70%+ picks hit more often than the toss-ups, and how the playoff odds lined up with who really made it.
 
+## Scorecard
+
+The same picture, graded against real results. A green check with a green outline means the frozen pick was right, a red x means it was wrong, and a blank means the game hasn't been played yet. Only the saved week-3 picks are graded, so it starts small and fills in each week.
+
+![Scorecard for the 2026 picks](scorecard_2026.png)
+
 ## How to run it
 
 You need Python 3.9+ and internet (it downloads the data).
