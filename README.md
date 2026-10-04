@@ -72,4 +72,4 @@ pip install pandas numpy statsmodels matplotlib nfl_data_py jupyter
 jupyter notebook "NFL Pythagorean Expectation.ipynb"
 ```
 
-Run all the cells. Rerunning it during the season updates the odds with the latest games. The badge at the top of this README is regenerated on every run, so it always shows when the numbers were last refreshed.
+Run all the cells. Game results come from `nfl_data_py`, which can lag a day or so, so the notebook tops them up with final scores from ESPN's public scoreboard feed (the data behind espn.com/nfl/schedule). If ESPN can't be reached it just uses `nfl_data_py`. Rerunning it during the season updates the odds with the latest games. The badge at the top of this README is regenerated on every run, so it always shows when the numbers were last refreshed.
