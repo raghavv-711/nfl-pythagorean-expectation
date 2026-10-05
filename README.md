@@ -53,7 +53,7 @@ It writes the results to `playoff_odds_2026.csv`.
 
 ## Every remaining game, predicted (and graded)
 
-The last sections of the notebook make one picture with a predicted winner and win chance for every game left this season (weeks 4-18), using the same ratings and win chances as the playoff odds. Bold is my pick and darker means more confident.
+The last sections of the notebook make one picture with a predicted winner and win chance for every game left this season (weeks 4-18), using the same ratings and win chances as the playoff odds. In the full picture bold is my pick; in the scorecard the pick is the colored team. Either way, darker means more confident.
 
 As games get played, I grade the picks with a green check (right) or a red x (wrong). The scorecard at the top shows the current week plus the next four so it's easy to read, and it moves forward as weeks finish. The full 15-week version is `predictions_2026_thru_week3.png`.
 
