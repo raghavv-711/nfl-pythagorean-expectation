@@ -2,7 +2,7 @@
 
 ![Last updated](last_updated.png)
 
-**2026 scorecard:** every remaining game, predicted before it was played. Green check = right, red x = wrong, blank = not played yet.
+**2026 scorecard:** my picks for the next 5 weeks, made before the games were played. The colored team is my pick, and darker means more confident. Green check = right, red x = wrong, blank = not played yet.
 
 ![2026 predictions scorecard](scorecard_2026.png)
 
@@ -55,7 +55,7 @@ It writes the results to `playoff_odds_2026.csv`.
 
 The last sections of the notebook make one picture with a predicted winner and win chance for every game left this season (weeks 4-18), using the same ratings and win chances as the playoff odds. Bold is my pick and darker means more confident.
 
-As games get played, I grade the picks: a **green check with a green outline** means the pick was right, a **red x with a red outline** means it was wrong, and a blank means the game hasn't been played yet.
+As games get played, I grade the picks with a green check (right) or a red x (wrong). The scorecard at the top shows the current week plus the next four so it's easy to read, and it moves forward as weeks finish. The full 15-week version is `predictions_2026_thru_week3.png`.
 
 The graded picture is at the top of this page.
 
