@@ -47,19 +47,15 @@ It writes the results to `playoff_odds_2026.csv`.
 
 **Limits:** ratings stay fixed during the simulation, ties in the standings are broken randomly instead of with the real NFL tiebreakers, and it knows nothing about injuries or quarterbacks. Early in the season it's built on very few games, so take it lightly until around week 8. I haven't tested the game-by-game win chances against past games; that part is a reasonable setup, not a checked one.
 
-## Every remaining game, predicted
+## Every remaining game, predicted (and graded)
 
-The last section of the notebook is one picture with a predicted winner and win chance for every game left this season (weeks 4-18), using the same ratings and win chances as the playoff odds. Bold is my pick and darker means more confident.
+The last sections of the notebook make one picture with a predicted winner and win chance for every game left this season (weeks 4-18), using the same ratings and win chances as the playoff odds. Bold is my pick and darker means more confident.
 
-![Predictions for every remaining 2026 game](predictions_2026_thru_week3.png)
+As games get played, I grade the picks: a **green check with a green outline** means the pick was right, a **red x with a red outline** means it was wrong, and a blank means the game hasn't been played yet.
 
-The picks are frozen in `predictions_2026_thru_week3.csv`. **After the season ends I'll compare them to what actually happened**: how many I got right (the model's backtest accuracy was about 60%, so that's the bar), whether the 70%+ picks hit more often than the toss-ups, and how the playoff odds lined up with who really made it.
+![Predictions for every remaining 2026 game, graded](scorecard_2026.png)
 
-## Scorecard
-
-The same picture, graded against real results. A green check with a green outline means the frozen pick was right, a red x means it was wrong, and a blank means the game hasn't been played yet. Only the saved week-3 picks are graded, so it starts small and fills in each week.
-
-![Scorecard for the 2026 picks](scorecard_2026.png)
+The picks themselves are frozen in `predictions_2026_thru_week3.csv` (and the ungraded picture, `predictions_2026_thru_week3.png`), so the grading always uses what I predicted before the games, not a redo. **After the season ends I'll do the full comparison**: how many I got right (the model's backtest accuracy was about 60%, so that's the bar), whether the 70%+ picks hit more often than the toss-ups, and how the playoff odds lined up with who really made it.
 
 ## How to run it
 
