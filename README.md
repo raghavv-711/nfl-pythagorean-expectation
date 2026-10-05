@@ -2,6 +2,10 @@
 
 ![Last updated](last_updated.png)
 
+**2026 scorecard:** every remaining game, predicted before it was played. Green check = right, red x = wrong, blank = not played yet.
+
+![2026 predictions scorecard](scorecard_2026.png)
+
 Baseball has a formula called the Pythagorean expectation that guesses a team's win percentage from runs scored and runs allowed. I wanted to see if the same idea works for the NFL, and then use it to get playoff odds for this season.
 
 Everything is in one notebook: `NFL Pythagorean Expectation.ipynb`.
@@ -53,7 +57,7 @@ The last sections of the notebook make one picture with a predicted winner and w
 
 As games get played, I grade the picks: a **green check with a green outline** means the pick was right, a **red x with a red outline** means it was wrong, and a blank means the game hasn't been played yet.
 
-![Predictions for every remaining 2026 game, graded](scorecard_2026.png)
+The graded picture is at the top of this page.
 
 The picks themselves are frozen in `predictions_2026_thru_week3.csv` (and the ungraded picture, `predictions_2026_thru_week3.png`), so the grading always uses what I predicted before the games, not a redo. **After the season ends I'll do the full comparison**: how many I got right (the model's backtest accuracy was about 60%, so that's the bar), whether the 70%+ picks hit more often than the toss-ups, and how the playoff odds lined up with who really made it.
 
