@@ -2,7 +2,7 @@
 
 ![Last updated](last_updated.png)
 
-**2026 scorecard:** my picks for the next 5 weeks, made before the games were played. The colored team is my pick, and darker means more confident. Green check = right, red x = wrong, blank = not played yet.
+**2026 scorecard:** my picks for last week and the next 5 weeks, made before the games were played. The colored team is my pick, and darker means more confident. Green check = right, red x = wrong, blank = not played yet.
 
 ![2026 predictions scorecard](scorecard_2026.png)
 
