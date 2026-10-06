@@ -7,7 +7,7 @@
 ![2026 predictions scorecard](scorecard_2026.png)
 
 <!-- auto-start -->
-**Right now (Oct 4, 2026, through week 3):** 10 of 15 graded picks right (67%). Best playoff odds: AFC KC 94%, JAX 93%, LV 80%; NFC SF 95%, MIN 92%, CHI 85%.
+**Right now (Oct 6, 2026, through week 4):** 10 of 16 graded picks right (62%). Best playoff odds: AFC KC 93%, JAX 93%, LV 80%; NFC SF 94%, MIN 92%, CHI 85%.
 <!-- auto-end -->
 
 Baseball has a formula called the Pythagorean expectation that guesses a team's win percentage from runs scored and runs allowed. I wanted to see if the same idea works for the NFL, and then use it to get playoff odds for this season.
