@@ -2,12 +2,12 @@
 
 ![Last updated](last_updated.png)
 
-**2026 scorecard:** my picks for last week and the next 5 weeks, made before the games were played. The colored team is my pick, and darker means more confident. Green check = right, red x = wrong, blank = not played yet.
+**2026 scorecard:** my picks starting at week 7, made before the games are played. The colored team is my pick, and darker means more confident. Green check = right, red x = wrong, blank = not played yet.
 
 ![2026 predictions scorecard](scorecard_2026.png)
 
 <!-- auto-start -->
-**Right now (Oct 14, 2026, through week 5):** 18 of 30 graded picks right (60%). Best playoff odds: AFC JAX 95%, KC 93%, BAL 79%; NFC SF 98%, MIN 97%, NYG 68%.
+**Updated Oct 18, 2026, through week 5.** Best playoff odds: AFC KC 96%, JAX 89%, BUF 84%; NFC SF 99%, MIN 96%, CAR 77%.
 <!-- auto-end -->
 
 Baseball has a formula called the Pythagorean expectation that guesses a team's win percentage from runs scored and runs allowed. I wanted to see if the same idea works for the NFL, and then use it to get playoff odds for this season.
@@ -55,15 +55,13 @@ It writes the results to `playoff_odds_2026.csv`.
 
 **Limits:** ratings stay fixed during the simulation, ties in the standings are broken randomly instead of with the real NFL tiebreakers, and it knows nothing about injuries or quarterbacks. Early in the season it's built on very few games, so take it lightly until around week 8. I haven't tested the game-by-game win chances against past games; that part is a reasonable setup, not a checked one.
 
-## Every remaining game, predicted (and graded)
+## Every remaining game, predicted
 
-The last sections of the notebook make one picture with a predicted winner and win chance for every game left this season (weeks 4-18), using the same ratings and win chances as the playoff odds. In the full picture bold is my pick; in the scorecard the pick is the colored team. Either way, darker means more confident.
+The last sections of the notebook make a picture with a predicted winner and win chance for the upcoming games, using the same ratings and win chances as the playoff odds. The colored team is my pick, and darker means more confident.
 
-As games get played, I grade the picks with a green check (right) or a red x (wrong). The scorecard at the top shows the current week plus the next four so it's easy to read, and it moves forward as weeks finish. The full 15-week version is `predictions_2026_thru_week3.png`.
+The scorecard at the top starts fresh at week 7 and shows the next five weeks. As games get played it adds a green check (right) or a red x (wrong), and the window moves forward as weeks finish.
 
-The graded picture is at the top of this page.
-
-The picks themselves are frozen in `predictions_2026_thru_week3.csv` (and the ungraded picture, `predictions_2026_thru_week3.png`), so the grading always uses what I predicted before the games, not a redo. **After the season ends I'll do the full comparison**: how many I got right (the model's backtest accuracy was about 60%, so that's the bar), whether the 70%+ picks hit more often than the toss-ups, and how the playoff odds lined up with who really made it.
+Every Tuesday the notebook saves the picks for the rest of the season in `predictions_2026_thru_weekN.csv`, and each game is checked against the latest picks saved before its week started. **After the season ends I'll do the full comparison**: how many I got right (the model's backtest accuracy was about 60%, so that's the bar), whether the 70%+ picks hit more often than the toss-ups, and how the playoff odds lined up with who really made it.
 
 ## How to run it
 
